@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      body {
+        padding: 20px;
+        display: flex;
+        height: fit-content;
+        gap: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <label for="usd">Số USD muốn đổi</label>
+    <input type="number" id="usd" /> <br />
+    <button onclick="doiTien()">Đổi sang tiền VNĐ</button>
+    <Sp id="ketQua">Bạn đổi được:</Sp>
+    <script src="index.js"></script>
+  </body>
+</html>
